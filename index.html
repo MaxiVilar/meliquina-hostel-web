@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meliquina Hostel</title>
+
+    <!-- Fuente de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <h1>Meliquina Hostel</h1>
+
+        <p>
+            Un lugar para descansar y disfrutar de la naturaleza
+        </p>
+
+    </header>
+
+
+    <!-- NAVEGACIÓN -->
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
+
+            <li>
+                <a href="#habitaciones">Habitaciones</a>
+            </li>
+
+            <li>
+                <a href="#resenas">Reseñas</a>
+            </li>
+
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+
+        <!-- SECCIÓN INICIO -->
+        <section id="inicio" class="seccion-inicio">
+
+            <div class="texto-inicio">
+
+                <h2>Bienvenidos a Meliquina Hostel</h2>
+
+                <p>
+                    Nuestro hostel se encuentra en Villa Meliquina,
+                    rodeado de naturaleza y tranquilidad.
+                </p>
+
+                <p>
+                    Ofrecemos un espacio cómodo para descansar
+                    y disfrutar de la Patagonia.
+                </p>
+
+            </div>
+
+            <img
+                src="imagenes/hostel.jpg"
+                alt="Vista del Meliquina Hostel"
+            >
+
+        </section>
+
+
+        <!-- SECCIÓN HABITACIONES -->
+        <section id="habitaciones">
+
+            <h2>Habitaciones</h2>
+
+            <div class="tarjetas">
+
+
+                <!-- HABITACIÓN COMPARTIDA -->
+                <article class="tarjeta">
+
+                    <img
+                        src="imagenes/habitacion-compartida.jpg"
+                        alt="Habitación compartida"
+                    >
+
+                    <h3>Habitación compartida</h3>
+
+                    <p>
+                        Habitación para hasta 6 personas,
+                        ideal para viajeros.
+                    </p>
+
+                </article>
+
+
+                <!-- HABITACIÓN PRIVADA DOBLE -->
+                <article class="tarjeta">
+
+                    <img
+                        src="imagenes/habitacion-doble.jpg"
+                        alt="Habitación privada doble"
+                    >
+
+                    <h3>Habitación privada doble</h3>
+
+                    <p>
+                        Habitación privada para dos personas,
+                        cómoda y tranquila.
+                    </p>
+
+                </article>
+
+
+                <!-- HABITACIÓN INDIVIDUAL -->
+                <article class="tarjeta">
+
+                    <img
+                        src="imagenes/habitacion-individual.jpg"
+                        alt="Habitación privada individual"
+                    >
+
+                    <h3>Habitación individual</h3>
+
+                    <p>
+                        Espacio privado para una persona,
+                        ideal para descansar.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN RESEÑAS -->
+        <section id="resenas">
+
+            <h2>Reseñas</h2>
+
+            <div class="rejilla-resenas">
+
+
+                <article class="resena">
+
+                    <h3>Excelente lugar</h3>
+
+                    <p>
+                        "Un lugar muy tranquilo y cómodo.
+                        Volvería sin dudas."
+                    </p>
+
+                    <strong>Martín</strong>
+
+                </article>
+
+
+                <article class="resena">
+
+                    <h3>Muy recomendable</h3>
+
+                    <p>
+                        "La atención fue excelente y el paisaje
+                        es increíble."
+                    </p>
+
+                    <strong>Laura</strong>
+
+                </article>
+
+
+                <article class="resena">
+
+                    <h3>Hermosa experiencia</h3>
+
+                    <p>
+                        "Ideal para descansar y disfrutar
+                        de la naturaleza."
+                    </p>
+
+                    <strong>Nicolás</strong>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p class="texto-contacto">
+                ¿Querés realizar una consulta?
+                Completá el siguiente formulario.
+            </p>
+
+
+            <!-- FORMULARIO DE CONTACTO -->
+            <form
+                action="https://formspree.io/f/xqpajokb"
+                method="POST"
+                class="formulario-contacto"
+            >
+
+                <label for="nombre">
+                    Nombre:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    required
+                >
+
+
+                <label for="correo">
+                    Correo electrónico:
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    required
+                >
+
+
+                <label for="mensaje">
+                    Mensaje:
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <h3>Meliquina Hostel</h3>
+
+        <p>
+            Villa Meliquina - Neuquén - Argentina
+        </p>
+
+        <p>
+            Proyecto de práctica de desarrollo web
+        </p>
+
+        <p>
+            © 2026 Meliquina Hostel
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
